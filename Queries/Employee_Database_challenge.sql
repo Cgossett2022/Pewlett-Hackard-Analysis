@@ -56,6 +56,37 @@ AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 
 
+-- Deliverable 3
+--Create Unique Titles by Department
+SELECT DISTINCT ON (rt.emp_no)
+rt.emp_no,
+rt.first_name,
+rt.last_name,
+rt.title,
+d.dept_name
+INTO unique_titles_by_dept
+FROM retirement_titles as rt
+INNER JOIN dept_emp as de
+ON (rt.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (d.dept_no = de.dept_no)
+
+--Roles to fill
+SELECT ut.dept_name, ut.title, COUNT(ut.title)
+INTO roles_to_fill
+FROM (SELECT title, dept_name from unique_titles_by_dept) as ut
+GROUP BY ut.dept_name, ut.title
+ORDER BY ut.dept_name DESC;
+
+--Qualified, retirement-ready employees
+SELECT ut.dept_name, ut.title, COUNT(ut.title)
+INTO qualified_staff
+FROM (SELECT title, dept_name from unique_titles_by_dept) as ut
+WHERE ut.title IN ('Senior Engineer', 'Senior Staff', 'Technique Leader')
+GROUP BY ut.dept_name, ut.title
+ORDER BY ut.dept_name DESC;
+
+
 
 
 
