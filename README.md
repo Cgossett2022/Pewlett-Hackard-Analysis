@@ -1,6 +1,8 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview
+
+### Purpose
 1. For this project, I used SQL to build an Employee Database for Pewlett Hackard. Since a large number of employees will be retiring over the next few years, the company needs to (1)determine the number of retiring employees per title and (2)identify employees who are eligible to participate in a mentorship program. 
 
 2. In order to build the database, I started by using Quick DBD to create an Entity Relationship Diagram (ERD) for all the original CSV data files.
@@ -8,6 +10,8 @@
 ![EmployeeDB](https://user-images.githubusercontent.com/111243284/195453155-45e63149-3e31-482d-b8c7-1037af472a23.png)
 
 ## Results
+
+### Retiring Employees
 1. The first new table I built was a retirement_titles table. Based on this table, I was able to determine that there were 133,776 retirement titles, as represented by the number of rows.
 
 ![retirement_titles](https://user-images.githubusercontent.com/111243284/195458753-334bb3e4-39fc-4244-bc25-9bca45b4604f.png)
@@ -20,17 +24,21 @@
 
 ![retiring_titles](https://user-images.githubusercontent.com/111243284/195458827-ae7e0b43-0ae2-43fc-9df4-b5f67c24f138.png)
 
+### Mentorship Eligibility
 4. Lastly, I built a mentorship_eligibility table, which helped me answer the second question. Based on this table, I found 1,549 employees who were eligible for the mentorship program.
 
 ![mentorship_eligibility](https://user-images.githubusercontent.com/111243284/195458855-a01fe167-4428-47e6-a32f-089159705cdb.png)
 
 
 ## Summary
+
 1. In addition to my results, I addressed the following questions: How many roles will need to be filled as the "silver tsunami" begins to make an impact? and Are there enough qualified employees to mentor the next generation?
 
-2. To answer the first question, I created a roles_to_fill table. Based on the results, I found that there will be 90,398 roles that will need to be filled.
+### Roles To Be Filled
+2. To answer the first question, I created a roles_to_fill table. Based on the results, I found that there will be 90,398 roles that will need to be filled. Out of all the employees (300,024), the number of roles to be filled only makes up about 30%, so Pewlett Hackard should not be overly concerned.
 
-3. To answer the second question, I created a qualified_staff table. The results showed that Pewlett Hackard has 41,672 employees who are qualified to serve as mentors.
+### Number of Qualified Mentors
+3. To answer the second question, I created a qualified_staff table. The results showed that Pewlett Hackard has 41,672 employees who are qualified to serve as mentors. This only makes up about 14% of employees, so I would suggest promoting more people and developing better training processes for current employees. Otherwise, there will not be enough mentors for the next generation.
 
 
 
