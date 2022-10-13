@@ -26,7 +26,7 @@
 
 
 ## Summary
-1. In addition to my results, I addressed the following questions: How many roles will need to be filled as the "silver tsuname" begins to make an impact? and Are there enough qualified employees to mentor the next generation?
+1. In addition to my results, I addressed the following questions: How many roles will need to be filled as the "silver tsunami" begins to make an impact? and Are there enough qualified employees to mentor the next generation?
 
 2. To answer the first question, I created a roles_to_fill table. Based on the results, I found that there will be 90,398 roles that will need to be filled.
 
