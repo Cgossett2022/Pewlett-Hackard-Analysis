@@ -25,20 +25,20 @@
 ![retiring_titles](https://user-images.githubusercontent.com/111243284/195458827-ae7e0b43-0ae2-43fc-9df4-b5f67c24f138.png)
 
 ### Mentorship Eligibility
-4. Lastly, I built a mentorship_eligibility table, which helped me answer the second question. Based on this table, I found 1,549 employees who were eligible for the mentorship program.
+1. Lastly, I built a mentorship_eligibility table, which helped me answer the second question. Based on this table, I found 1,549 employees who were eligible for the mentorship program.
 
 ![mentorship_eligibility](https://user-images.githubusercontent.com/111243284/195458855-a01fe167-4428-47e6-a32f-089159705cdb.png)
 
 
 ## Summary
 
-1. In addition to my results, I addressed the following questions: How many roles will need to be filled as the "silver tsunami" begins to make an impact? and Are there enough qualified employees to mentor the next generation?
+- In addition to my results, I addressed the following questions: How many roles will need to be filled as the "silver tsunami" begins to make an impact? and Are there enough qualified employees to mentor the next generation?
 
 ### Roles To Be Filled
-2. To answer the first question, I created a roles_to_fill table. Based on the results, I found that there will be 90,398 roles that will need to be filled. Out of all the employees (300,024), the number of roles to be filled only makes up about 30%, so Pewlett Hackard should not be overly concerned.
+- To answer the first question, I created a roles_to_fill table. Based on the results, I found that there will be 90,398 roles that will need to be filled. Out of all the employees (300,024), the number of roles to be filled only makes up about 30%, so Pewlett Hackard should not be overly concerned.
 
 ### Number of Qualified Mentors
-3. To answer the second question, I created a qualified_staff table. The results showed that Pewlett Hackard has 41,672 employees who are qualified to serve as mentors. This only makes up about 14% of employees, so I would suggest promoting more people and developing better training processes for current employees. Otherwise, there will not be enough mentors for the next generation.
+- To answer the second question, I created a qualified_staff table. The results showed that Pewlett Hackard has 41,672 employees who are qualified to serve as mentors. This only makes up about 14% of employees, so I would suggest promoting more people and developing better training processes for current employees. Otherwise, there will not be enough mentors for the next generation.
 
 
 
