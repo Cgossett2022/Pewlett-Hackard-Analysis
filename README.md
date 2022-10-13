@@ -10,7 +10,7 @@
 
 
 ## Results
-1. The first table I built was a retirement_titles table, which contained 133,776 rows. From this analysis, I was able to determine that there were 133,776 retirement titles in the table
+1. The first table I built was a retirement_titles table, which contained 133,776 rows. From this analysis, I was able to determine that there were 133,776 retirement titles in the table.
 
 ![retirement_titles](https://user-images.githubusercontent.com/111243284/195458753-334bb3e4-39fc-4244-bc25-9bca45b4604f.png)
 
